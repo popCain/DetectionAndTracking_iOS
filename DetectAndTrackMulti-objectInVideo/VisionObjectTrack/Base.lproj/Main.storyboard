@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="WMe-U7-uB9">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="XvD-I6-PtL">
+            <objects>
+                <navigationController id="WMe-U7-uB9" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9XV-Nq-hqY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="W99-av-qry">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="P9a-u0-pHR" kind="relationship" relationship="rootViewController" id="TvG-Hm-rEo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tum-u8-DNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1281" y="-463"/>
+        </scene>
+        <!--Movie List-->
+        <scene sceneID="8BS-F5-g5P">
+            <objects>
+                <collectionViewController id="P9a-u0-pHR" customClass="AssetsViewController" customModule="VideoTrack" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="e2C-U9-VcU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="1" id="irc-Ic-pQu">
+                            <size key="itemSize" width="100" height="100"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="1" minY="1" maxX="1" maxY="1"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AssetCell" id="jN4-62-Eue" customClass="AssetsViewControllerCell" customModule="VideoTrack" customModuleProvider="target">
+                                <rect key="frame" x="1" y="1" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4bS-a4-smg">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="4bS-a4-smg" secondAttribute="bottom" id="2Et-fy-kla"/>
+                                    <constraint firstAttribute="trailing" secondItem="4bS-a4-smg" secondAttribute="trailing" id="HQb-yH-0mz"/>
+                                    <constraint firstItem="4bS-a4-smg" firstAttribute="top" secondItem="jN4-62-Eue" secondAttribute="top" id="cYe-XO-YYg"/>
+                                    <constraint firstItem="4bS-a4-smg" firstAttribute="leading" secondItem="jN4-62-Eue" secondAttribute="leading" id="slS-bD-eBV"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="4bS-a4-smg" id="Kve-jM-M6f"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="P9a-u0-pHR" id="xTw-iW-uvv"/>
+                            <outlet property="delegate" destination="P9a-u0-pHR" id="jtl-61-3G5"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Movie List" prompt="Choose a movie to start tracking" id="Bow-iO-kTp">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="pOE-hM-Kxe"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="0gZ-i3-le5" kind="show" identifier="ShowTrackingView" id="AfM-Kc-CIY"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rlp-CB-3tI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-507" y="-463"/>
+        </scene>
+        <!--Vision Tracker-->
+        <scene sceneID="3gR-1P-8Me">
+            <objects>
+                <viewController id="0gZ-i3-le5" customClass="TrackingViewController" customModule="VideoTrack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ds7-Xx-kVy"/>
+                        <viewControllerLayoutGuide type="bottom" id="HSi-h7-F3l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c1W-oG-Xzh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mob-UU-TmQ" customClass="TrackingImageView" customModule="VideoTrack" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="137" width="414" height="599"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Q25-1d-Ioq" appends="YES" id="gjS-li-mUG"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgM-aO-YJJ">
+                                <rect key="frame" x="368" y="93" width="34" height="30"/>
+                                <state key="normal" title="clear"/>
+                                <connections>
+                                    <action selector="handleClearRectsButton:" destination="0gZ-i3-le5" eventType="touchUpInside" id="xQ8-bj-4cP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="mob-UU-TmQ" firstAttribute="top" secondItem="c1W-oG-Xzh" secondAttribute="top" constant="137" id="IYl-Ak-5Qs"/>
+                            <constraint firstItem="mob-UU-TmQ" firstAttribute="top" secondItem="hgM-aO-YJJ" secondAttribute="bottom" constant="14" id="KRM-U6-bOl"/>
+                            <constraint firstItem="HSi-h7-F3l" firstAttribute="top" secondItem="mob-UU-TmQ" secondAttribute="bottom" id="QCh-sp-LVR"/>
+                            <constraint firstAttribute="trailing" secondItem="mob-UU-TmQ" secondAttribute="trailing" id="lR0-Vv-I8Q"/>
+                            <constraint firstItem="mob-UU-TmQ" firstAttribute="leading" secondItem="c1W-oG-Xzh" secondAttribute="leading" id="uNy-LS-bL2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hgM-aO-YJJ" secondAttribute="trailing" constant="-8" id="wPR-RZ-NQp"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="U6V-1K-2Jj" appends="YES" id="9Gb-Ro-y4l"/>
+                        </connections>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Vision Tracker" prompt="Detect then tracking" id="dH9-mV-MA1">
+                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="WXg-bW-UHO">
+                            <connections>
+                                <action selector="handleStartStopButton:" destination="0gZ-i3-le5" id="tFa-tb-RXB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="clearRectsButton" destination="hgM-aO-YJJ" id="9sf-9k-xii"/>
+                        <outlet property="startStopButton" destination="WXg-bW-UHO" id="tpj-k1-Esu"/>
+                        <outlet property="trackingView" destination="mob-UU-TmQ" id="ZoF-yX-rr0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uyd-8V-Ihv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="U6V-1K-2Jj">
+                    <connections>
+                        <action selector="handlePan:" destination="0gZ-i3-le5" id="xE7-Xb-75n"/>
+                        <outlet property="delegate" destination="0gZ-i3-le5" id="DsO-pV-xiT"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="Q25-1d-Ioq">
+                    <connections>
+                        <action selector="handleTap:" destination="0gZ-i3-le5" id="OEy-gm-eDU"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="6" y="-484"/>
+        </scene>
+    </scenes>
+</document>
