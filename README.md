@@ -13,9 +13,9 @@ Detector-based data association multi-object tracking
     2. Training with Create ML
     3. Download from [Core ML research community](https://developer.apple.com/machine-learning/models/) 
 2. **Tracker(`ii-a(Provide predictions)`)**(*Break the long-term tracking to short-term tracking*)
-    1. Single object tracking(*Basic framework of online visual tracking*)
+    1. Single object tracker(*Basic framework of online visual tracking*)
 ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/BasicFramework.png)
-    3. **`Multi-object tracking`**
+    3. **`Multi-object tracker`**
         1. **`Detector-independent tracking model`***(Simply a collection of single object trackers)*
             * Reference of [`tracking in Vision of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
                 > * *Collection of requests: one tracking request per tracked object - 1to1*  
