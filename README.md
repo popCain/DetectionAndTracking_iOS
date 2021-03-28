@@ -17,3 +17,5 @@ Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)
         1. Detector based tracking model
         2. Detector-independent tracking model
 4. **Data Association**
+    1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
+    2. Nearest Neighbor Filter
