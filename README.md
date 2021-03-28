@@ -4,6 +4,7 @@ ____
 Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)  
   ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/objectTracking.gif)
 ## Tracking Flow(Tracking-by-Detection)
+Detector-based data association multi-object tracking
 * **Three parts**: **`Detector`**|**`Tracker`**|**`Data Association`**  
 ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/trackingFlow.png)
 
