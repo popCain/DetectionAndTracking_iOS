@@ -19,7 +19,7 @@ Detector-based data association multi-object tracking
         1. **`Detector-independent tracking model`***(Simply a collection of single object trackers)*
             * Reference of [`Vision framework of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
             * Reference of OpenCV multi-object tracker
-        2. Detector-based tracking model
+        2. Detector-based tracking model(*Detector-based data association multi-object tracking*)
 4. **Data Association**
     1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
     2. Nearest Neighbor Filter
