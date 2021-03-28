@@ -7,6 +7,8 @@ Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)
 * **Three parts**: **`Detector`**|**`Tracker`**|**`Data Association`**  
 ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/trackingFlow.png)
 
-* **Detector**
->> Training an Object Detection model with Tensorflow Object Detection API using Google Colab
-3. 
+1. **Detector**
+  * Training with Tensorflow Object Detection API using Google Colab
+  * Training with Create ML
+2. **Tracker**
+3. **Data Association**
