@@ -17,7 +17,7 @@ Detector-based data association multi-object tracking
 ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/BasicFramework.png)
     3. **`Multi-object tracking`**
         1. **`Detector-independent tracking model`***(Simply a collection of single object trackers)*
-            * Reference of [`Vision framework of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
+            * Reference of [`tracking in Vision of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
                 > *Collection of requests: one tracking request per tracked object - 1to1*
             * Reference of OpenCV multi-object tracker
                 > *Collection of single object tracker: BOOSTING, MIL, KCF, TLD, MOSSE, CSRT, MEDIANFLOW, GOTURN*
