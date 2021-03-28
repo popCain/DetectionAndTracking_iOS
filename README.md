@@ -31,6 +31,7 @@ Detector-based data association multi-object tracking
 4. **Data Association**(*Maintain the identity of objects and keep track-`Bridge between detector and short-term traker`*)
     1. Optimized Data Association Algorithm
         1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
+![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/detections_tracks.png)
         2. Nearest Neighbor Filter
     2. Data Association Cost
         1. Appearance Features
