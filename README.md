@@ -21,7 +21,7 @@ Detector-based data association multi-object tracking
                 > *Collection of requests: one tracking request per tracked object - 1to1*  
                 > Limits:
                 >> Number of trackers: 16  
-                >> Challenge for long tracking sequence: Objects in tracking sequence can change their shape, appearance, color, location.
+                >> Long tracking sequence: Objects in tracking sequence can change their shape, appearance, color, location, and that represents a great challenge for the algorithm.
             * Reference of OpenCV multi-object tracker
                 > *Collection of single object trackers: BOOSTING, MIL, KCF, TLD, MOSSE, CSRT, MEDIANFLOW, GOTURN*
         2. Detector-based tracking model(*Detector-based data association multi-object tracking of `this repository`*)
