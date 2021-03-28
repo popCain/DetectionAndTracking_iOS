@@ -28,4 +28,4 @@ Detector-based data association multi-object tracking
         2. Nearest Neighbor Filter
     2. Data Association Cost
         1. Appearance Features
-        2. M
+        2. Motion Features
