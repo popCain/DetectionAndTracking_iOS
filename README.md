@@ -15,7 +15,7 @@ Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)
     1. Single object tracking(*Basic framework of online visual tracking*)
 ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/BasicFramework.png)
     3. **`Multi-object tracking`**
-        1. **`Detector based tracking model(Online)`**
+        1. **`Detector-based tracking model(Online)`**
         2. Detector-independent tracking model
 4. **Data Association**
     1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
