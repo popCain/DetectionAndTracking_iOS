@@ -25,6 +25,8 @@ Detector-based data association multi-object tracking
                 > * **Solution: Breaking the sequence into smaller subsequences, and rerunning detectors every N frames**
             * Reference of OpenCV multi-object tracker
                 > *Collection of single object trackers: BOOSTING, MIL, KCF, TLD, MOSSE, CSRT, MEDIANFLOW, GOTURN*
+                > * **Limits:**
+                >>    * Swift-OpenCV:
         2. Detector-based tracking model(*Detector-based data association multi-object tracking of `this repository`*)
 4. **Data Association**
     1. Optimized Data Association Algorithm
