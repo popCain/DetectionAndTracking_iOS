@@ -16,7 +16,7 @@ Detector-based data association multi-object tracking
     1. Single object tracking(*Basic framework of online visual tracking*)
 ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/BasicFramework.png)
     3. **`Multi-object tracking`**
-        1. **`Detector-independent tracking model`**
+        1. **`Detector-independent tracking model`(Simply a collection of single object trackers)**
             * Reference of [`Vision framework of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
         3. Detector-based tracking model
 4. **Data Association**
