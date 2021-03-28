@@ -22,7 +22,7 @@ Detector-based data association multi-object tracking
                 > * Limits:
                 >>    * Number of trackers: 16  
                 >>    * Long tracking sequence: Objects in tracking sequence can change their shape, appearance, color, location, and that represents a great challenge for the algorithm.
-                >>    * Solution: Breaking the sequence into smaller subsequences, and rerunning detectors every N frames.
+                > * Solution: Breaking the sequence into smaller subsequences, and rerunning detectors every N frames.
             * Reference of OpenCV multi-object tracker
                 > *Collection of single object trackers: BOOSTING, MIL, KCF, TLD, MOSSE, CSRT, MEDIANFLOW, GOTURN*
         2. Detector-based tracking model(*Detector-based data association multi-object tracking of `this repository`*)
