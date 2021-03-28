@@ -12,8 +12,9 @@ Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)
     2. Training with Create ML
     3. Download from [Core ML research community](https://developer.apple.com/machine-learning/models/) 
 2. **Tracker**
-    1. Single object tracking
-    2. Multi-object tracking
+    1. Single object tracking(Online visual tracking)
+![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/BasicFramework.png)
+    3. Multi-object tracking
         1. Detector based tracking model
         2. Detector-independent tracking model
 4. **Data Association**
