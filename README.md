@@ -26,3 +26,6 @@ Detector-based data association multi-object tracking
     1. Optimized Data Association Algorithm
         1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
         2. Nearest Neighbor Filter
+    2. Data Association Cost
+        1. Appearance Features
+        2. M
