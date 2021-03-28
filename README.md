@@ -20,7 +20,7 @@ Detector-based data association multi-object tracking
             * Reference of [`tracking in Vision of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
                 > *Collection of requests: one tracking request per tracked object - 1to1*  
                 > Limits:
-                >> Number of trackers: 16
+                >> Number of trackers: 16  
                 >> Challenge for long tracking sequence: Objects in tracking sequence can change their shape, appearance, color, location.
             * Reference of OpenCV multi-object tracker
                 > *Collection of single object trackers: BOOSTING, MIL, KCF, TLD, MOSSE, CSRT, MEDIANFLOW, GOTURN*
