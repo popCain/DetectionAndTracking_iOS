@@ -10,5 +10,6 @@ Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)
 1. **Detector**
     1. Training with Tensorflow Object Detection API using Google Colab
     2. Training with Create ML
+    3. Download from Core ML 
 2. **Tracker**
 3. **Data Association**
