@@ -20,7 +20,8 @@ Detector-based data association multi-object tracking
             * Reference of [`Vision framework of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
                 > *Collection of requests: one tracking request per tracked object - 1to1*
             * Reference of OpenCV multi-object tracker
-        2. Detector-based tracking model(*Detector-based data association multi-object tracking*)
+                > *Collection of single object tracker: BOOSTING, MIL, KCF,TLD, MEDIANFLOW, GOTURN, MOSSE, CSRT*
+        2. Detector-based tracking model(*Detector-based data association multi-object tracking of `this repository`*)
 4. **Data Association**
     1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
     2. Nearest Neighbor Filter
