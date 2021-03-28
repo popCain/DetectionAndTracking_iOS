@@ -18,7 +18,7 @@ Detector-based data association multi-object tracking
     3. **`Multi-object tracking`**
         1. **`Detector-independent tracking model`***(Simply a collection of single object trackers)*
             * Reference of [`Vision framework of Core ML`](https://developer.apple.com/documentation/vision/tracking_multiple_objects_or_rectangles_in_video)
-            > (*Collection of requests:One tracking request per tracked object-1to1*)
+                * *Collection of requests:One tracking request per tracked object-1to1*)
             * Reference of OpenCV multi-object tracker
         2. Detector-based tracking model(*Detector-based data association multi-object tracking*)
 4. **Data Association**
