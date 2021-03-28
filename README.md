@@ -1,6 +1,6 @@
 # DetectionAndTracking_iOS
-Simple Online Realtime Multi-object detection and tracking on mobile device of iOS(*As multiple detected targets enter and exit the frame, unique IDs are created and deleted, and trajectories are created and implemented on iOS mobile devices for automatic long-term tracking*)  
-____
+Simple Online Realtime Multi-object detection and tracking on mobile device of iOS(*As multiple detected targets enter and exit the frame, unique IDs are created and deleted, and trajectories are created and implemented on iOS mobile devices for long-term tracking*)  
+
 Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)  
   ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/objectTracking.gif)
 ## Tracking Flow(Tracking-by-Detection)
