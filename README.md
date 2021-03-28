@@ -23,5 +23,6 @@ Detector-based data association multi-object tracking
                 > *Collection of single object tracker: BOOSTING, MIL, KCF, TLD, MOSSE, CSRT, MEDIANFLOW, GOTURN*
         2. Detector-based tracking model(*Detector-based data association multi-object tracking of `this repository`*)
 4. **Data Association**
-    1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
-    2. Nearest Neighbor Filter
+    1. Optimized Data Association Algorithm
+        1. [Hungarian Maximum Matching Algorithm](https://brilliant.org/wiki/hungarian-matching/)
+        2. Nearest Neighbor Filter
