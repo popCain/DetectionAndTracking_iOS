@@ -8,7 +8,7 @@ Detector-based data association multi-object tracking
 * **Three parts**: **`Detector`**|**`Tracker`**|**`Data Association`**  
 ![](https://github.com/popCain/DetectionAndTracking_iOS/blob/main/image/trackingFlow.png)
 
-1. **Detector**
+1. **Detector**（*Provide the realtime information of location and appearance to update the objects being tracked*）
     1. Training with Tensorflow Object Detection API using Google Colab
     2. Training with Create ML
     3. Download from [Core ML research community](https://developer.apple.com/machine-learning/models/) 
