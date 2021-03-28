@@ -26,7 +26,7 @@ Detector-based data association multi-object tracking
             * Reference of OpenCV multi-object tracker
                 > * *Collection of single object trackers: BOOSTING, MIL, KCF, TLD, MOSSE, CSRT, MEDIANFLOW, GOTURN*
                 > * **Limits:**
-                >>    * Swift-OpenCV:
+                >>    * Swift-OpenCV: Can't import C++ code directly into Swift. Instead, create an Objective-C or C wrapper for C++ code(Need bridge file).
         2. Detector-based tracking model(*Detector-based data association multi-object tracking of `this repository`*)
 4. **Data Association**(*Maintain the identity of objects and keep track-`Bridge between detector and short-term traker`*)
     1. Optimized Data Association Algorithm
