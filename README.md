@@ -14,6 +14,6 @@ Test on iPhone8(_Test video was token with **`Horizontal screen`**-Orientation_)
 2. **Tracker**
     1. Single object tracking
     2. Multi-object tracking
-      1. Detector based tracking model
-      2. Detector-independent tracking model
+        1. Detector based tracking model
+        2. Detector-independent tracking model
 4. **Data Association**
